@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Nilai</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <script src="scripts/script.js"></script>
+</head>
+<body oncontextmenu="return false">
+    <fieldset>
+        <legend>Form Nilai</legend>
+        <p>
+            <label class="center">Nama :</label>
+            <input type="text" id="nama" placeholder="Nama Lengkap" required="required"/>
+        </p>
+        <p>
+            <label class="center">Nilai Tugas :</label>
+            <input type="text" id="nilaiTugas" placeholder="Nilai Tugas" required="required"/>
+        </p>
+        <p>
+            <label class="center">Nilai UTS :</label>
+            <input type="text" id="nilaiUTS" placeholder="Nilai UTS" required="required"/>
+        </p>
+        <p>
+            <label class="center">Nilai UAS :</label>
+            <input type="text" id="nilaiUAS" placeholder="Nilai UAS" required="required"/>
+        </p>
+        <p style="text-align: right; margin-right: 80px;">
+            <button onclick="dialogSubmit()" style="width: 205px;">Submit</button>
+        </p>
+    </fieldset>
+</body>
+</html>
